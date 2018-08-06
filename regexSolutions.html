@@ -440,6 +440,51 @@
 	</head>
 	<body>
 		<script>
+			var reg = /d{3}/g;
+			var testString = "123 345 567";
+			console.log(reg.test(testString));
+
+		</script>
+	</body>
+</html>
+ -->
+
+ <!-- <html>
+	<head>
+		<title></title>
+	</head>
+	<body>
+		<script>
+			var reg = /d{6}/g;
+			var testString = "123 345 567";
+			console.log(reg.test(testString));
+
+		</script>
+	</body>
+</html>
+ -->
+
+ <!-- <html>
+	<head>
+		<title></title>
+	</head>
+	<body>
+		<script>
+			var reg = /d{3,4}/g;
+			var testString = "123 456 2345 5677 23 45677 456675 6778888";
+			console.log(reg.test(testString));
+
+		</script>
+	</body>
+</html>
+ -->
+
+ <!-- <html>
+	<head>
+		<title></title>
+	</head>
+	<body>
+		<script>
 			var reg = /truck[d{1}]?.html/g;
 			var testString = "truck.html truck1.html truck2.html";
 			console.log(reg.test(testString));
@@ -449,6 +494,55 @@
 </html>
  -->
 
+
+ <!-- <html>
+	<head>
+		<title></title>
+	</head>
+	<body>
+		<script>
+			var reg = /d{1,2}?flower/g;
+			var testString = "123 456 2345 5677 23 45677 456675 6778888";
+			console.log(reg.test(testString));
+
+		</script>
+	</body>
+</html>
+ -->
+
+
+<!-- <html>
+	<head>
+		<title></title>
+	</head>
+	<body>
+		<script>
+			var reg = /[cp]?atch[es]?/g;
+			var testString = "catch catches patches";
+			console.log(reg.test(testString));
+
+		</script>
+	</body>
+</html>
+ -->
+
+ <!-- <html>
+	<head>
+		<title></title>
+	</head>
+	<body>
+		<script>
+			var reg = /b[e.]/g;
+			var testString = "be bee beee";
+			console.log(reg.test(testString));
+
+		</script>
+	</body>
+</html>
+ -->
+
+
+ 
 
 
 
